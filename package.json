@@ -3,7 +3,7 @@
   "displayName": "SVN Changes",
   "description": "Show list of files that are modified in local copy",
   "version": "0.1.0",
-  "publisher": "Elian",
+  "publisher": "eliean",
   "engines": {
     "vscode": "^1.5.0"
   },
