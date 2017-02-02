@@ -1,0 +1,33 @@
+{
+  "name": "vscode-svn",
+  "displayName": "SVN Changes",
+  "description": "Show list of files that are modified in local copy",
+  "version": "0.1.0",
+  "publisher": "Elian",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "icon": "images/logo.svg",
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+        "svn", "subversion", "version control"
+    ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension",
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.40",
+    "eslint": "^3.6.0",
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0"
+  },
+  "dependencies": {
+    "svn-spawn": "^0.1.5"
+  }
+}
